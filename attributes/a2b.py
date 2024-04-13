@@ -63,7 +63,7 @@ def main(ds_gender = 'male', model_gender = 'male', input_type = '04b_ahcwh2s'):
         print(f'Predicted bestas for {model_name}')
         print(betas)
         print()
-        print([float(f"{num:.1f}") for num in betas])
+        print([float(f"{num:.2f}") for num in betas])
         print()
 
 
